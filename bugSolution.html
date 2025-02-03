@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // Correct usage: Convert number to string before assigning to innerHTML
+    const myNumber = 123;
+    document.getElementById("myDiv").innerHTML = myNumber.toString(); 
+  </script>
+</body>
+</html>
